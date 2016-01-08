@@ -1,0 +1,49 @@
+body {
+  background-color: #465eff;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  color: white;
+}
+
+div {
+  background-color: white;
+  color: black;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  width: 250px;
+  height: 400px;
+  padding: 5px 80px 5px 5px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  font-size: large;
+  line-height: 2;
+}
+
+#students {
+  float: left;
+}
+
+#instructors {
+  float: right;
+}
+
+#contact {
+  clear: both;
+  margin: auto;
+  width: 30%;
+  height: 80px;
+  text-align: center;
+  box-shadow: 10px 10px 5px black;
+
+}
+
+ul {
+  list-style-type: none;
+}

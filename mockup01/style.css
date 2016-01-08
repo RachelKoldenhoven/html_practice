@@ -1,0 +1,9 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: 1cm;
+  margin-left: 0.5cm;
+}
+
+.indented {
+  text-indent: 20px;
+}
