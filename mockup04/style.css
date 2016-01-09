@@ -1,0 +1,33 @@
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+nav {
+  border:2px solid black;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 5% 0 0;
+}
+
+
+h2 {
+  color: orange;
+}
+
+form {
+  color: purple;
+
+}
+
+input {
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.btn {
+  background-color: orange;
+}

@@ -16,11 +16,11 @@ div {
   border-color: black;
   border-width: 5px;
   border-style: solid;
-  width: 250px;
-  height: 400px;
+  width: 25%;
+  height: 300px;
   padding: 5px 80px 5px 5px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
   margin-bottom: 5%;
   font-size: large;
   line-height: 2;
@@ -38,9 +38,10 @@ div {
   clear: both;
   margin: auto;
   width: 30%;
-  height: 80px;
+  height: 8%;
   text-align: center;
   box-shadow: 10px 10px 5px black;
+  padding: 0;
 
 }
 
