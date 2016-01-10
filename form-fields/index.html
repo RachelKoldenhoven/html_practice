@@ -2,11 +2,55 @@
 <html>
 <head>
 <title>Form Fields</title>
+<meta charset="UTF-8">
 </head>
 <body>
 
+  <h1>Form Fields: Example 5</h1>
+
   <form>
-  
+    Song Name 
+    <input type="text" 
+          name="song" 
+          value="Somewhere Over the Rainbow"> <br><br>
+    Songwriter Email 
+    <input  type="email" 
+            name="email" 
+            value="judy@garland.net"> <br><br>
+    <input  type="checkbox" 
+            name="Aca-awesome">
+            Aca-awesome? <br><br>
+    <input  type="checkbox" 
+            name="will-win-regionals" 
+            value="true" 
+            checked> 
+            Will win regionals? <br><br>
+    Slight Diva 
+    <input  type="radio" 
+            name="diva-level" 
+            value="2">
+    <input  type="radio"
+            name="diva-level"
+            value="2"
+            checked="checked">
+    <input  type="radio"
+            name="diva-level"
+            value="2">
+            Extreme Diva <br><br>
+    Comments <br><br>
+    <textarea name="comment">Great song.  Love it!
+    </textarea> <br><br>
+    Super secret hidden field...
+    <input  type="hidden"
+            name="secret-field"
+            value="42"> <br><br>
+    Soloist
+    <select name="soloist">
+      <option value="Mercedes-Jones">Mercedes Jones</option>  
+    </select><br><br>
+    <input type="button" value="success">
+    <input type="button" value="cancelled">
+    <input type= "button" value="I can haz html">
   </form>
 
 
